@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://git.openembedded.org/" name="oe"/>
+  <remote fetch="git://github.com/beagleboard" name="bb"/>
+  <remote fetch="git://github.com/linneman" name="peiker"/>
+  <remote fetch="git://github.com/majanko" name="rec"/>
+
+  <project path="oe-core" name="openembedded-core" remote="peiker" revision="refs/tags/v0.1"/>
+  <project path="oe-core/bitbake" name="bitbake" remote="oe" revision="c761751e259bb8e940552a28794b45887b5a72d9"/>
+  <project path="build" name="oe-build-conf" remote="peiker" revision="refs/tags/v0.2"/>
+  <project path="meta-openembedded" name="meta-openembedded" remote="oe" revision="refs/heads/dylan"/>
+  <project path="meta-beagleboard" name="meta-beagleboard" remote="bb" revision="refs/heads/master"/>
+  <project path="meta-mdm-peiker" name="meta-mdm-peiker" remote="peiker" revision="refs/tags/v0.1"/>
+  <project path="meta-mcu-rec" name="meta-mcu-rec" remote="peiker" revision="refs/tags/v0.1"/>
+</manifest>
