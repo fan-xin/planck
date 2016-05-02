@@ -11,5 +11,5 @@
   <project path="meta-openembedded" name="meta-openembedded" remote="oe" revision="refs/heads/dylan"/>
   <project path="meta-beagleboard" name="meta-beagleboard" remote="bb" revision="refs/heads/master"/>
   <project path="meta-mdm-peiker" name="meta-mdm-peiker" remote="peiker" revision="refs/tags/v0.1"/>
-  <project path="meta-mcu-rec" name="meta-mcu-rec" remote="peiker" revision="refs/tags/v0.1"/>
+  <project path="meta-mcu-rec" name="meta-mcu-rec" remote="peiker" revision="refs/tags/v0.1b"/>
 </manifest>
